@@ -1,0 +1,11 @@
+* Algorithm for Finding the Second Largest Element in an Array *
+--> Initialize the array.
+--> Input number of elements and their values.
+--> Initialize largest with the first element and secondLargest to -1.
+--> Loop through the array from the second element:
+--> If the current element is greater than largest:
+--> Update secondLargest to largest.
+--> Update largest to the current element.
+--> Else if the current element is greater than secondLargest and not equal to largest:
+--> Update secondLargest to the current element.
+--> If secondLargest is not -1, print it; otherwise, indicate that no second largest exists.

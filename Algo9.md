@@ -1,0 +1,11 @@
+* Algorithm for segregating even and odd numbers in array*
+--> Input the size of the array.
+--> Input the elements of the array.
+--> Initialize two separate arrays:
+--> One to store even numbers.
+--> One to store odd numbers.
+--> Loop through the array:
+--> If the number is even, add it to the even array.
+--> If the number is odd, add it to the odd array.
+--> Print the even array first.
+--> Print the odd array after the even array
